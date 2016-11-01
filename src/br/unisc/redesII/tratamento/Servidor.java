@@ -83,7 +83,7 @@ public class Servidor {
                             break;
                         } else {
                             mensagem = loader.run(mensagem);
-                            out.println(loader.run(mensagem));
+                            out.println((mensagem));
                             log.info("MENSAGEM E", socket.getInetAddress().getHostName(), mensagem);
                         }
                     }
